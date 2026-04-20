@@ -1,0 +1,71 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "情绪泡泡",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/game/game",
+			"style": {
+				"navigationBarTitleText": "泡泡乐园",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/diary/diary",
+			"style": {
+				"navigationBarTitleText": "心情日记",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "情绪泡泡",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F5F7FA",
+		"app-plus": {
+			"background": "#F5F7FA"
+		}
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#FF6B9D",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "吹泡泡",
+				"iconPath": "static/tabbar/bubble.png",
+				"selectedIconPath": "static/tabbar/bubble-active.png"
+			},
+			{
+				"pagePath": "pages/game/game",
+				"text": "乐园",
+				"iconPath": "static/tabbar/game.png",
+				"selectedIconPath": "static/tabbar/game-active.png"
+			},
+			{
+				"pagePath": "pages/diary/diary",
+				"text": "日记",
+				"iconPath": "static/tabbar/diary.png",
+				"selectedIconPath": "static/tabbar/diary-active.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/tabbar/profile.png",
+				"selectedIconPath": "static/tabbar/profile-active.png"
+			}
+		]
+	}
+}
